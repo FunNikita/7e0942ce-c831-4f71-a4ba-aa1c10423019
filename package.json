@@ -1,0 +1,42 @@
+{
+  "name": "ec",
+  "version": "1.0.0",
+  "description": "./",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env PORT=10888 HTTPS=true react-scripts start",
+    "build": "set \"GENERATE_SOURCEMAP=false\" &&  react-scripts build",
+    "deploy": "set \"GENERATE_SOURCEMAP=false\" && react-scripts build && vk-miniapps-deploy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "react-hot-loader": "^4.7.1",
+    "react-scripts": "^2.1.5"
+  },
+  "dependencies": {
+    "@vkontakte/icons": "^1.60.0",
+    "@vkontakte/vk-bridge": "^2.2.1",
+    "@vkontakte/vkui": "^3.9.2",
+    "@vkontakte/vkui-connect": "^1.5.4",
+    "axios": "^0.19.2",
+    "babel-eslint": "^9.0.0",
+    "chunk": "0.0.3",
+    "core-js": "^2.6.5",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.3",
+    "react-detect-offline": "^2.4.0",
+    "react-dom": "^16.8.3",
+    "react-snow-effect": "^1.2.0",
+    "react-snowfall": "^1.0.2",
+    "react-snowstorm": "0.0.3"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
